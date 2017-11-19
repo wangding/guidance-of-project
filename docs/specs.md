@@ -19,10 +19,10 @@ GitHub 仓库要有 README.md 文件，.gitignore 文件和 LICENSE 文件，这
 ## 三、GitHub Pages
 
 GitHub 仓库需要启用 GitHub Pages 功能，注意事项如下：
-  - 程序代码都在 develop 分支；  
-  - 发布的代码在 master 分支；
-  - GitHub Pages 启用在 master 分支上；  
-  - master 分支中的代码需要用自动化部署工具进行发布部署前的预处理，例如：压缩，打包合并，等；
+  - 程序代码都在 master 分支；  
+  - 发布的代码在 gh-pages 分支；
+  - GitHub Pages 启用在 gh-pages 分支上；  
+  - gh-pages 分支中的代码需要用自动化部署工具进行发布部署前的预处理，例如：压缩，打包合并，等；
   - 仓库描述中请给出 GitHub Pages 的地址，参考下图；
 
 ![王顶，git, github, node.js, selenium ide, 408542507@qq.com](images/repos01.png)
